@@ -1,0 +1,540 @@
+C:\Users\kujir\zephyrproject>west update
+=== updating hal_atmel (modules\hal\atmel):
+--- hal_atmel: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/hal/atmel/.git/
+--- hal_atmel: fetching, need revision 5690f5b84495c8b657ff204c5c827df1ab9e12e3
+remote: Enumerating objects: 1509, done.
+remote: Total 1509 (delta 0), reused 0 (delta 0), pack-reused 1509R
+Receiving objects: 100% (1509/1509), 2.40 MiB | 1.94 MiB/s, done.
+Resolving deltas: 100% (1140/1140), done.
+From https://github.com/zephyrproject-rtos/hal_atmel
+ * [new branch]      master       -> refs/west/master
+ * [new branch]      v1.14-branch -> refs/west/v1.14-branch
+HEAD is now at 5690f5b ext: Import Atmel SAME54 header files from ASF library
+--- hal_atmel: checked out 5690f5b84495c8b657ff204c5c827df1ab9e12e3 as detached HEAD
+=== updating ci-tools (tools\ci-tools):
+--- ci-tools: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/tools/ci-tools/.git/
+--- ci-tools: fetching, need revision eb7f1e19eff28d486c64b850ef7b9dcd0331a7af
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 555 (delta 0), reused 0 (delta 0), pack-reused 549
+Receiving objects: 100% (555/555), 180.69 KiB | 600.00 KiB/s, done.
+Resolving deltas: 100% (374/374), done.
+From https://github.com/zephyrproject-rtos/ci-tools
+ * [new branch]      cc-crlf      -> refs/west/cc-crlf
+ * [new branch]      master       -> refs/west/master
+ * [new branch]      v1.14-branch -> refs/west/v1.14-branch
+ * [new branch]      whatchanged  -> refs/west/whatchanged
+HEAD is now at eb7f1e1 check_compliance.py: Kconfig: Flag redundant $ZEPHYR_BASE in 'source'
+--- ci-tools: checked out eb7f1e19eff28d486c64b850ef7b9dcd0331a7af as detached HEAD
+=== updating civetweb (modules\lib\civetweb):
+--- civetweb: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/lib/civetweb/.git/
+--- civetweb: fetching, need revision 99129c5efc907ea613c4b73ccff07581feb58a7a
+remote: Enumerating objects: 21161, done.
+remote: Total 21161 (delta 0), reused 0 (delta 0), pack-reused 21161
+Receiving objects: 100% (21161/21161), 24.36 MiB | 6.84 MiB/s, done.
+Resolving deltas: 100% (13575/13575), done.
+From https://github.com/zephyrproject-rtos/civetweb
+ * [new branch]      1.9                 -> refs/west/1.9
+ * [new branch]      master              -> refs/west/master
+ * [new branch]      wip-ssl-error-queue -> refs/west/wip-ssl-error-queue
+ * [new tag]         v1.1                -> v1.1
+ * [new tag]         v1.10               -> v1.10
+ * [new tag]         v1.11               -> v1.11
+ * [new tag]         v1.2                -> v1.2
+ * [new tag]         v1.3                -> v1.3
+ * [new tag]         v1.4                -> v1.4
+ * [new tag]         v1.5                -> v1.5
+ * [new tag]         v1.6                -> v1.6
+ * [new tag]         v1.7                -> v1.7
+ * [new tag]         v1.8                -> v1.8
+ * [new tag]         v1.9                -> v1.9
+ * [new tag]         v1.9.1              -> v1.9.1
+HEAD is now at 99129c5e Merge pull request #778 from antmicro/zephyr-filtering
+--- civetweb: checked out 99129c5efc907ea613c4b73ccff07581feb58a7a as detached HEAD
+=== updating esp-idf (modules\hal\esp-idf):
+--- esp-idf: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/hal/esp-idf/.git/
+--- esp-idf: fetching, need revision 6835bfc741bf15e98fb7971293913f770df6081f
+remote: Enumerating objects: 76449, done.
+remote: Total 76449 (delta 0), reused 0 (delta 0), pack-reused 76449
+Receiving objects: 100% (76449/76449), 69.09 MiB | 7.47 MiB/s, done.
+Resolving deltas: 100% (54682/54682), done.
+From https://github.com/zephyrproject-rtos/esp-idf
+ * [new branch]      master       -> refs/west/master
+ * [new branch]      v1.14-branch -> refs/west/v1.14-branch
+ * [new branch]      zephyr       -> refs/west/zephyr
+Updating files: 100% (3005/3005), done.
+HEAD is now at 6835bfc74 module: add zephyr integration
+--- esp-idf: checked out 6835bfc741bf15e98fb7971293913f770df6081f as detached HEAD
+=== updating fatfs (modules\fs\fatfs):
+--- fatfs: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/fs/fatfs/.git/
+--- fatfs: fetching, need revision 0c1288bb817c1976388e0f55e8483f671ae437ab
+remote: Enumerating objects: 95, done.
+remote: Counting objects: 100% (95/95), done.
+remote: Compressing objects: 100% (49/49), done.
+remote: Total 95 (delta 46), reused 92 (delta 44), pack-reused 0
+Unpacking objects: 100% (95/95), 799.41 KiB | 738.00 KiB/s, done.
+From https://github.com/zephyrproject-rtos/fatfs
+ * [new branch]      master       -> refs/west/master
+ * [new branch]      v1.14-branch -> refs/west/v1.14-branch
+HEAD is now at 0c1288b include: Fix use of <disk_access.h> -> <disk/disk_access.h>
+--- fatfs: checked out 0c1288bb817c1976388e0f55e8483f671ae437ab as detached HEAD
+=== updating hal_cypress (modules\hal\cypress):
+--- hal_cypress: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/hal/cypress/.git/
+--- hal_cypress: fetching, need revision a12d92816a53a521d79cefcf5c38b9dc8a4fed6e
+remote: Enumerating objects: 305, done.
+remote: Total 305 (delta 0), reused 0 (delta 0), pack-reused 305
+Receiving objects: 100% (305/305), 954.91 KiB | 1.14 MiB/s, done.
+Resolving deltas: 100% (97/97), done.
+From https://github.com/zephyrproject-rtos/hal_cypress
+ * [new branch]      master       -> refs/west/master
+ * [new branch]      v1.14-branch -> refs/west/v1.14-branch
+HEAD is now at a12d928 zephyr: move kconfig to the zephyr tree
+--- hal_cypress: checked out a12d92816a53a521d79cefcf5c38b9dc8a4fed6e as detached HEAD
+=== updating hal_nordic (modules\hal\nordic):
+--- hal_nordic: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/hal/nordic/.git/
+--- hal_nordic: fetching, need revision 8506c348b6da91a9f53bcbb181ecd82b752b9eed
+remote: Enumerating objects: 174, done.
+remote: Counting objects: 100% (174/174), done.
+remote: Compressing objects: 100% (92/92), done.
+remote: Total 1876 (delta 95), reused 131 (delta 80), pack-reused 1702 eceiving objects:  99% (1858/1876), 2.48 MiB | 2.31 MiB/s
+Receiving objects: 100% (1876/1876), 2.53 MiB | 2.35 MiB/s, done.
+Resolving deltas: 100% (1378/1378), done.
+From https://github.com/zephyrproject-rtos/hal_nordic
+ * [new branch]      master           -> refs/west/master
+ * [new branch]      topic-nrfx-2.0.0 -> refs/west/topic-nrfx-2.0.0
+ * [new branch]      v1.14-branch     -> refs/west/v1.14-branch
+HEAD is now at 8506c34 drivers: nrf_radio_802154: Align to latest changes in clock_control
+--- hal_nordic: checked out 8506c348b6da91a9f53bcbb181ecd82b752b9eed as detached HEAD
+=== updating hal_openisa (modules\hal\openisa):
+--- hal_openisa: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/hal/openisa/.git/
+--- hal_openisa: fetching, need revision 9bfbe35aad79fdf552dbdae47a894e26be7c022c
+remote: Enumerating objects: 218, done.
+Rremote: Total 218 (delta 0), reused 0 (delta 0), pack-reused 218                                                       Receiving objects:  79% (173/218), 308.01 KiB | 604.00 KiB/s
+Receiving objects: 100% (218/218), 801.80 KiB | 1.03 MiB/s, done.
+Resolving deltas: 100% (58/58), done.
+From https://github.com/zephyrproject-rtos/hal_openisa
+ * [new branch]      master       -> refs/west/master
+ * [new branch]      v1.14-branch -> refs/west/v1.14-branch
+HEAD is now at 9bfbe35 hal: openisa: pull in Timer/PWM module source if enabled
+--- hal_openisa: checked out 9bfbe35aad79fdf552dbdae47a894e26be7c022c as detached HEAD
+=== updating hal_microchip (modules\hal\microchip):
+--- hal_microchip: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/hal/microchip/.git/
+--- hal_microchip: fetching, need revision 85302959c0c659311cf90ac51d133e5ce19c9288
+remote: Enumerating objects: 113, done.
+remote: Total 113 (delta 0), reused 0 (delta 0), pack-reused 113 eceiving objects:  61% (69/113), 260.01 KiB | 227.00 KiB/s
+Receiving objects: 100% (113/113), 329.91 KiB | 247.00 KiB/s, done.
+Resolving deltas: 100% (39/39), done.
+From https://github.com/zephyrproject-rtos/hal_microchip
+ * [new branch]      master       -> refs/west/master
+ * [new branch]      v1.14-branch -> refs/west/v1.14-branch
+HEAD is now at 8530295 modules : hal : microchip Add remaining MEC1501 HAL headers
+--- hal_microchip: checked out 85302959c0c659311cf90ac51d133e5ce19c9288 as detached HEAD
+=== updating hal_silabs (modules\hal\silabs):
+--- hal_silabs: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/hal/silabs/.git/
+--- hal_silabs: fetching, need revision 9151e614c23997074acd1096a3e8a9e5c255d5b9
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 1320 (delta 0), reused 0 (delta 0), pack-reused 1319
+Receiving objects: 100% (1320/1320), 4.15 MiB | 2.79 MiB/s, done.
+Resolving deltas: 100% (983/983), done.
+From https://github.com/zephyrproject-rtos/hal_silabs
+ * [new branch]      master       -> refs/west/master
+ * [new branch]      v1.14-branch -> refs/west/v1.14-branch
+HEAD is now at 9151e61 zephyr: move kconfig to the zephyr tree
+--- hal_silabs: checked out 9151e614c23997074acd1096a3e8a9e5c255d5b9 as detached HEAD
+=== updating hal_st (modules\hal\st):
+--- hal_st: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/hal/st/.git/
+--- hal_st: fetching, need revision fa481784b3c49780f18d50bafe00390ccb62b2ec
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 7350 (delta 0), reused 0 (delta 0), pack-reused 7349
+Receiving objects: 100% (7350/7350), 22.70 MiB | 5.53 MiB/s, done.
+Resolving deltas: 100% (6059/6059), done.
+From https://github.com/zephyrproject-rtos/hal_st
+ * [new branch]      master       -> refs/west/master
+ * [new branch]      v1.14-branch -> refs/west/v1.14-branch
+HEAD is now at fa48178 sensor/stmemsc: Align stmemsc i/f to v1.02
+--- hal_st: checked out fa481784b3c49780f18d50bafe00390ccb62b2ec as detached HEAD
+=== updating hal_stm32 (modules\hal\stm32):
+--- hal_stm32: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/hal/stm32/.git/
+--- hal_stm32: fetching, need revision 2f1923cb2067bbddb89716896cf27d7c2245f580
+remote: Enumerating objects: 110, done.
+remote: Counting objects: 100% (110/110), done.
+remote: Compressing objects: 100% (92/92), done.
+remote: Total 10649 (delta 43), reused 50 (delta 15), pack-reused 10539
+Receiving objects: 100% (10649/10649), 32.69 MiB | 8.17 MiB/s, done.
+Resolving deltas: 100% (9089/9089), done.
+From https://github.com/zephyrproject-rtos/hal_stm32
+ * [new branch]      cube_update_ST_Github -> refs/west/cube_update_ST_Github
+ * [new branch]      doc_use_cube          -> refs/west/doc_use_cube
+ * [new branch]      fix_l4_can            -> refs/west/fix_l4_can
+ * [new branch]      master                -> refs/west/master
+ * [new branch]      wb_lib_update         -> refs/west/wb_lib_update
+Updating files: 100% (2585/2585), done.
+HEAD is now at 2f1923c stm32cube: update stm32wb to version V1.3.0
+--- hal_stm32: checked out 2f1923cb2067bbddb89716896cf27d7c2245f580 as detached HEAD
+=== updating hal_ti (modules\hal\ti):
+--- hal_ti: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/hal/ti/.git/
+--- hal_ti: fetching, need revision 879c7d08ffc6cd18737847030b906cffe3b0a8fb
+remote: Enumerating objects: 27, done.
+remote: Counting objects: 100% (27/27), done.
+remote: Compressing objects: 100% (25/25), done.
+remote: Total 1375 (delta 5), reused 5 (delta 0), pack-reused 1348
+Receiving objects: 100% (1375/1375), 2.63 MiB | 2.58 MiB/s, done.
+Resolving deltas: 100% (627/627), done.
+From https://github.com/zephyrproject-rtos/hal_ti
+ * [new branch]      master       -> refs/west/master
+ * [new branch]      v1.14-branch -> refs/west/v1.14-branch
+HEAD is now at 879c7d0 simplelink: power: leave interrupts disabled in Power_sleep
+--- hal_ti: checked out 879c7d08ffc6cd18737847030b906cffe3b0a8fb as detached HEAD
+=== updating libmetal (modules\hal\libmetal):
+--- libmetal: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/hal/libmetal/.git/
+--- libmetal: fetching, need revision 45e630d6152824f807d3f919958605c4626cbdff
+remote: Enumerating objects: 412, done.
+remote: Counting objects: 100% (412/412), done.
+remote: Compressing objects: 100% (208/208), done.
+remote: Total 412 (delta 200), reused 412 (delta 200), pack-reused 0
+Receiving objects: 100% (412/412), 143.22 KiB | 477.00 KiB/s, done.
+Resolving deltas: 100% (200/200), done.
+From https://github.com/zephyrproject-rtos/libmetal
+ * [new branch]      master       -> refs/west/master
+ * [new branch]      v1.14-branch -> refs/west/v1.14-branch
+HEAD is now at 45e630d zephyr: move kconfig to the zephyr tree
+--- libmetal: checked out 45e630d6152824f807d3f919958605c4626cbdff as detached HEAD
+=== updating lvgl (modules\lib\gui\lvgl):
+--- lvgl: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/lib/gui/lvgl/.git/
+--- lvgl: fetching, need revision 74fc2e753a997bd71cefa34dd9c56dcb954b42e2
+remote: Enumerating objects: 2674, done.
+remote: Counting objects: 100% (2674/2674), done.
+remote: Compressing objects: 100% (837/837), done.
+remote: Total 22162 (delta 2000), reused 2433 (delta 1834), pack-reused 19488
+Receiving objects: 100% (22162/22162), 15.86 MiB | 6.79 MiB/s, done.
+Resolving deltas: 100% (17467/17467), done.
+From https://github.com/zephyrproject-rtos/lvgl
+ * [new branch]      master     -> refs/west/master
+ * [new branch]      zephyr     -> refs/west/zephyr
+HEAD is now at 74fc2e75 Merge lvgl v6.1.1 into zephyr branch
+--- lvgl: checked out 74fc2e753a997bd71cefa34dd9c56dcb954b42e2 as detached HEAD
+=== updating mbedtls (modules\crypto\mbedtls):
+--- mbedtls: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/crypto/mbedtls/.git/
+--- mbedtls: fetching, need revision 3776c158fe138a72c97c187e4d31c81c37884be9
+remote: Enumerating objects: 1141, done.
+remote: Counting objects: 100% (1141/1141), done.
+remote: Compressing objects: 100% (269/269), done.
+Rremote: Total 1141 (delta 870), reused 1117 (delta 853), pack-reused 0                                                 R85.00 KiB/s
+Receiving objects: 100% (1141/1141), 1.21 MiB | 1.49 MiB/s, done.
+Resolving deltas: 100% (870/870), done.
+From https://github.com/zephyrproject-rtos/mbedtls
+ * [new branch]      master       -> refs/west/master
+ * [new branch]      v1.14-branch -> refs/west/v1.14-branch
+HEAD is now at 3776c15 cmake: use zephyr_library_app_memory for mem partition placement
+--- mbedtls: checked out 3776c158fe138a72c97c187e4d31c81c37884be9 as detached HEAD
+=== updating mcuboot (bootloader\mcuboot):
+--- mcuboot: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/bootloader/mcuboot/.git/
+--- mcuboot: fetching, need revision c2bd757332bfde11c27019f937b0c61d5e9b9fd9
+remote: Enumerating objects: 7785, done.
+Rremote: Total 7785 (delta 0), reused 0 (delta 0), pack-reused 7785eceiving objects:  99% (7708/7785), 2.25 MiB | 2.25 MiB/s
+Receiving objects: 100% (7785/7785), 2.91 MiB | 2.69 MiB/s, done.
+Resolving deltas: 100% (4867/4867), done.
+From https://github.com/zephyrproject-rtos/mcuboot
+ * [new branch]      add-license   -> refs/west/add-license
+ * [new branch]      coverity_scan -> refs/west/coverity_scan
+ * [new branch]      master        -> refs/west/master
+ * [new branch]      revert-368-s1000_support -> refs/west/revert-368-s1000_support
+ * [new branch]      sim           -> refs/west/sim
+ * [new branch]      suit          -> refs/west/suit
+ * [new branch]      v1.3-branch   -> refs/west/v1.3-branch
+ * [new branch]      v1.3.1-branch -> refs/west/v1.3.1-branch
+ * [new tag]         v0.9-rc1      -> v0.9-rc1
+ * [new tag]         v0.9-test1    -> v0.9-test1
+ * [new tag]         v0.9.0        -> v0.9.0
+ * [new tag]         v0.9.0-rc2    -> v0.9.0-rc2
+ * [new tag]         v1.0.0        -> v1.0.0
+ * [new tag]         v1.0.0-rc1    -> v1.0.0-rc1
+ * [new tag]         v1.0.0-rc2    -> v1.0.0-rc2
+ * [new tag]         v1.0.0-rc3    -> v1.0.0-rc3
+ * [new tag]         v1.1.0        -> v1.1.0
+ * [new tag]         v1.1.0-rc1    -> v1.1.0-rc1
+ * [new tag]         v1.1.0-rc2    -> v1.1.0-rc2
+ * [new tag]         v1.2.0        -> v1.2.0
+ * [new tag]         v1.2.0-rc1    -> v1.2.0-rc1
+ * [new tag]         v1.2.0-rc2    -> v1.2.0-rc2
+ * [new tag]         v1.2.0-rc3    -> v1.2.0-rc3
+ * [new tag]         v1.2.0-rc4    -> v1.2.0-rc4
+ * [new tag]         v1.2.0-rc5    -> v1.2.0-rc5
+ * [new tag]         v1.3.0        -> v1.3.0
+ * [new tag]         v1.3.0-rc1    -> v1.3.0-rc1
+ * [new tag]         v1.3.0-rc2    -> v1.3.0-rc2
+ * [new tag]         v1.3.0-rc3    -> v1.3.0-rc3
+ * [new tag]         v1.3.1        -> v1.3.1
+ * [new tag]         v1.3.1-rc1    -> v1.3.1-rc1
+HEAD is now at c2bd757 zephyr: Add module.yml for Zephyr module integration
+--- mcuboot: checked out c2bd757332bfde11c27019f937b0c61d5e9b9fd9 as detached HEAD
+=== updating mcumgr (modules\lib\mcumgr):
+--- mcumgr: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/lib/mcumgr/.git/
+--- mcumgr: fetching, need revision b18b3d16441f40cf983aa034258e8f7c97bfe9bf
+remote: Enumerating objects: 312, done.
+remote: Counting objects: 100% (312/312), done.
+remote: Compressing objects: 100% (108/108), done.
+Receiving objects:  92% (288/312)used 298 (delta 133), pack-reused 0 eceiving objects:  86% (269/312)
+Receiving objects: 100% (312/312), 76.79 KiB | 310.00 KiB/s, done.
+Resolving deltas: 100% (144/144), done.
+From https://github.com/zephyrproject-rtos/mcumgr
+ * [new branch]      master       -> refs/west/master
+ * [new branch]      v1.14-branch -> refs/west/v1.14-branch
+HEAD is now at b18b3d1 include: Fix zephyr includes to use non-deprecated header locations
+--- mcumgr: checked out b18b3d16441f40cf983aa034258e8f7c97bfe9bf as detached HEAD
+=== updating net-tools (tools\net-tools):
+--- net-tools: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/tools/net-tools/.git/
+--- net-tools: fetching, need revision 30b7efa827b04d2e47840716b0372737fe7d6c92
+remote: Enumerating objects: 28, done.
+remote: Counting objects: 100% (28/28), done.
+remote: Compressing objects: 100% (20/20), done.
+remote: Total 1375 (delta 10), reused 12 (delta 6), pack-reused 1347
+Receiving objects: 100% (1375/1375), 2.57 MiB | 2.47 MiB/s, done.
+Resolving deltas: 100% (462/462), done.
+From https://github.com/zephyrproject-rtos/net-tools
+ * [new branch]      master     -> refs/west/master
+HEAD is now at 30b7efa net-setup: zeth-vlan.conf: Add IP addresses to zeth
+--- net-tools: checked out 30b7efa827b04d2e47840716b0372737fe7d6c92 as detached HEAD
+=== updating nffs (modules\fs\nffs):
+--- nffs: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/fs/nffs/.git/
+--- nffs: fetching, need revision 00dd4fab1a00f2f6e995ef3f2e7c3814689f8885
+remote: Enumerating objects: 69, done.
+remote: Counting objects: 100% (69/69), done.
+remote: Compressing objects: 100% (43/43), done.
+remote: Total 69 (delta 22), reused 67 (delta 21), pack-reused 0
+Unpacking objects: 100% (69/69), 67.77 KiB | 219.00 KiB/s, done.
+From https://github.com/zephyrproject-rtos/nffs
+ * [new branch]      master       -> refs/west/master
+ * [new branch]      v1.14-branch -> refs/west/v1.14-branch
+HEAD is now at 00dd4fa include: Fix use of <stats.h> -> <stats/stats.h>
+--- nffs: checked out 00dd4fab1a00f2f6e995ef3f2e7c3814689f8885 as detached HEAD
+=== updating hal_nxp (modules\hal\nxp):
+--- hal_nxp: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/hal/nxp/.git/
+--- hal_nxp: fetching, need revision 7f45cbef08deca18b3931c087fd28ea34f45bade
+remote: Enumerating objects: 3404, done.
+remote: Total 3404 (delta 0), reused 0 (delta 0), pack-reused 3404 eceiving objects:  99% (3370/3404), 6.41 MiB | 4.27 MReceiving objects:
+Receiving objects: 100% (3404/3404), 9.56 MiB | 5.15 MiB/s, done.
+Resolving deltas: 100% (2419/2419), done.
+From https://github.com/zephyrproject-rtos/hal_nxp
+ * [new branch]      master       -> refs/west/master
+ * [new branch]      v1.14-branch -> refs/west/v1.14-branch
+Updating files: 100% (799/799), done.
+HEAD is now at 7f45cbe mcux: Define BOARD_FLASH_SIZE for all builds
+--- hal_nxp: checked out 7f45cbef08deca18b3931c087fd28ea34f45bade as detached HEAD
+=== updating open-amp (modules\lib\open-amp):
+--- open-amp: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/lib/open-amp/.git/
+--- open-amp: fetching, need revision 9b591b289e1f37339bd038b5a1f0e6c8ad39c63a
+remote: Enumerating objects: 204, done.
+remote: Counting objects: 100% (204/204), done.
+remote: Compressing objects: 100% (140/140), done.
+remote: Total 204 (delta 57), reused 199 (delta 53), pack-reused 0
+Receiving objects: 100% (204/204), 1.44 MiB | 1.58 MiB/s, done.
+Resolving deltas: 100% (57/57), done.
+From https://github.com/zephyrproject-rtos/open-amp
+ * [new branch]      master       -> refs/west/master
+ * [new branch]      v1.14-branch -> refs/west/v1.14-branch
+HEAD is now at 9b591b2 cmake: fix zephyr library abstraction violation
+--- open-amp: checked out 9b591b289e1f37339bd038b5a1f0e6c8ad39c63a as detached HEAD
+=== updating loramac-node (modules\lib\loramac-node):
+--- loramac-node: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/lib/loramac-node/.git/
+--- loramac-node: fetching, need revision 29e516ec585b1a909af2b5f1c60d83e7d4d563e3
+remote: Enumerating objects: 18888, done.
+remote: Total 18888 (delta 0), reused 0 (delta 0), pack-reused 18888Receiving objects: 100% (18888/1888
+Receiving objects: 100% (18888/18888), 21.76 MiB | 6.88 MiB/s, done.
+Resolving deltas: 100% (12533/12533), done.
+From https://github.com/zephyrproject-rtos/loramac-node
+ * [new branch]      master        -> refs/west/master
+ * [new tag]         4.4.2-rc.4    -> 4.4.2-rc.4
+ * [new tag]         V3.4          -> V3.4
+ * [new tag]         v2.0          -> v2.0
+ * [new tag]         v2.1          -> v2.1
+ * [new tag]         v2.2          -> v2.2
+ * [new tag]         v2.3.RC1      -> v2.3.RC1
+ * [new tag]         v2.3.RC2      -> v2.3.RC2
+ * [new tag]         v3.0          -> v3.0
+ * [new tag]         v3.1          -> v3.1
+ * [new tag]         v3.2          -> v3.2
+ * [new tag]         v3.3          -> v3.3
+ * [new tag]         v3.4.1        -> v3.4.1
+ * [new tag]         v4.0.0        -> v4.0.0
+ * [new tag]         v4.1.0        -> v4.1.0
+ * [new tag]         v4.2.0        -> v4.2.0
+ * [new tag]         v4.3.0        -> v4.3.0
+ * [new tag]         v4.3.1        -> v4.3.1
+ * [new tag]         v4.3.2        -> v4.3.2
+ * [new tag]         v4.4.0        -> v4.4.0
+ * [new tag]         v4.4.1        -> v4.4.1
+ * [new tag]         v4.4.2        -> v4.4.2
+ * [new tag]         v4.4.2-rc.1   -> v4.4.2-rc.1
+ * [new tag]         v4.4.2-rc.2   -> v4.4.2-rc.2
+ * [new tag]         v4.4.2-rc.3   -> v4.4.2-rc.3
+ * [new tag]         v4.4.2-rc.5   -> v4.4.2-rc.5
+ * [new tag]         v4.4.2-rc.6   -> v4.4.2-rc.6
+ * [new tag]         v4.4.2-rc.7   -> v4.4.2-rc.7
+ * [new tag]         v4.4.3        -> v4.4.3
+ * [new tag]         v4.4.3_zephyr -> v4.4.3_zephyr
+HEAD is now at 29e516ec radio: sx1276: allow overriding Buffer reand/write functions
+--- loramac-node: checked out 29e516ec585b1a909af2b5f1c60d83e7d4d563e3 as detached HEAD
+=== updating openthread (modules\lib\openthread):
+--- openthread: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/lib/openthread/.git/
+--- openthread: fetching, need revision 05aaccc6e0db0fe17ac4beed2a2aacc9a9af167c
+remote: Enumerating objects: 11702, done.
+remote: Counting objects: 100% (11702/11702), done.
+remote: Compressing objects: 100% (3451/3451), done.
+remote: Total 53893 (delta 9153), reused 10095 (delta 8199), pack-reused 42191R
+Receiving objects: 100% (53893/53893), 62.94 MiB | 8.56 MiB/s, done.
+Resolving deltas: 100% (40985/40985), done.
+From https://github.com/zephyrproject-rtos/openthread
+ * [new branch]      master     -> refs/west/master
+ * [new branch]      zephyr     -> refs/west/zephyr
+Updating files: 100% (3727/3727), done.
+HEAD is now at 05aaccc6 cmake: Keep all OT CMake configuration together
+--- openthread: checked out 05aaccc6e0db0fe17ac4beed2a2aacc9a9af167c as detached HEAD
+=== updating segger (modules\debug\segger):
+--- segger: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/debug/segger/.git/
+--- segger: fetching, need revision 6fcf61606d6012d2c44129edc033f59331e268bc
+remote: Enumerating objects: 140, done.
+remote: Counting objects: 100% (140/140), done.
+remote: Compressing objects: 100% (68/68), done.
+remote: Total 140 (delta 69), reused 140 (delta 69), pack-reused 0
+Receiving objects: 100% (140/140), 73.45 KiB | 406.00 KiB/s, done.
+Resolving deltas: 100% (69/69), done.
+From https://github.com/zephyrproject-rtos/segger
+ * [new branch]      master       -> refs/west/master
+ * [new branch]      v1.14-branch -> refs/west/v1.14-branch
+HEAD is now at 6fcf616 ext: segger: update to SystemView v2.52h
+--- segger: checked out 6fcf61606d6012d2c44129edc033f59331e268bc as detached HEAD
+=== updating tinycbor (modules\lib\tinycbor):
+--- tinycbor: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/lib/tinycbor/.git/
+--- tinycbor: fetching, need revision 0fc68fceacd1efc1ce809c5880c380f3d98b7b6e
+remote: Enumerating objects: 24, done.
+remote: Counting objects: 100% (24/24), done.
+remote: Compressing objects: 100% (20/20), done.
+remote: Total 1758 (delta 6), reused 14 (delta 3), pack-reused 1734
+Receiving objects: 100% (1758/1758), 1.17 MiB | 1.33 MiB/s, done.
+Resolving deltas: 100% (1097/1097), done.
+From https://github.com/zephyrproject-rtos/tinycbor
+ * [new branch]      dev          -> refs/west/dev
+ * [new branch]      gh-pages     -> refs/west/gh-pages
+ * [new branch]      master       -> refs/west/master
+ * [new branch]      v1.14-branch -> refs/west/v1.14-branch
+ * [new branch]      zephyr       -> refs/west/zephyr
+ * [new tag]         v0.1         -> v0.1
+ * [new tag]         v0.2         -> v0.2
+ * [new tag]         v0.2.1       -> v0.2.1
+ * [new tag]         v0.3         -> v0.3
+ * [new tag]         v0.3.1       -> v0.3.1
+ * [new tag]         v0.3.2       -> v0.3.2
+ * [new tag]         v0.4         -> v0.4
+ * [new tag]         v0.4.1       -> v0.4.1
+ * [new tag]         v0.4.2       -> v0.4.2
+ * [new tag]         v0.5-beta1   -> v0.5-beta1
+ * [new tag]         v0.5.0       -> v0.5.0
+HEAD is now at 0fc68fc zephyr: Aligning source directory tree with apache/mynewt-core
+--- tinycbor: checked out 0fc68fceacd1efc1ce809c5880c380f3d98b7b6e as detached HEAD
+=== updating littlefs (modules\fs\littlefs):
+--- littlefs: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/fs/littlefs/.git/
+--- littlefs: fetching, need revision fe9572dd5a9fcf93a249daa4233012692bd2881d
+remote: Enumerating objects: 1772, done.
+remote: Counting objects: 100% (1772/1772), done.
+remote: Compressing objects: 100% (544/544), done.
+remote: Total 1772 (delta 1247), reused 1746 (delta 1222), pack-reused 0R
+Receiving objects: 100% (1772/1772), 937.64 KiB | 1.25 MiB/s, done.
+Resolving deltas: 100% (1247/1247), done.
+From https://github.com/zephyrproject-rtos/littlefs
+ * [new branch]      zephyr          -> refs/west/zephyr
+ * [new tag]         littlefs-v2.1.0 -> littlefs-v2.1.0
+ * [new tag]         littlefs-v2.1.1 -> littlefs-v2.1.1
+HEAD is now at fe9572d Merge littlefs tag 'v2.1.1' into zephyr
+--- littlefs: checked out fe9572dd5a9fcf93a249daa4233012692bd2881d as detached HEAD
+=== updating mipi-sys-t (modules\debug\mipi-sys-t):
+--- mipi-sys-t: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/debug/mipi-sys-t/.git/
+--- mipi-sys-t: fetching, need revision baf51863f19f009b92e762115ba5572a5b996b92
+remote: Enumerating objects: 152, done.
+remote: Counting objects: 100% (152/152), done.
+remote: Compressing objects: 100% (112/112), done.
+remote: Total 152 (delta 28), reused 147 (delta 23), pack-reused 0
+Receiving objects: 100% (152/152), 407.07 KiB | 679.00 KiB/s, done.
+Resolving deltas: 100% (28/28), done.
+From https://github.com/zephyrproject-rtos/mipi-sys-t
+ * [new branch]      zephyr     -> refs/west/zephyr
+HEAD is now at baf5186 Move code related to sys-t platform to mipi-sys-t tree.
+--- mipi-sys-t: checked out baf51863f19f009b92e762115ba5572a5b996b92 as detached HEAD
+=== updating nrf_hw_models (modules\bsim_hw_models\nrf_hw_models):
+--- nrf_hw_models: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/bsim_hw_models/nrf_hw_models/.git/
+--- nrf_hw_models: fetching, need revision fec69703cb1ca06fcdab6d5fde01274f0fc5c759
+remote: Enumerating objects: 224, done.
+remote: Counting objects: 100% (224/224), done.
+remote: Compressing objects: 100% (123/123), done.
+Receiving objects:  74% (166/224)sed 224 (delta 89), pack-reused 0R
+Receiving objects: 100% (224/224), 191.19 KiB | 387.00 KiB/s, done.
+Resolving deltas: 100% (89/89), done.
+From https://github.com/zephyrproject-rtos/nrf_hw_models
+ * [new branch]      master     -> refs/west/master
+HEAD is now at fec6970 Convert into a west module
+--- nrf_hw_models: checked out fec69703cb1ca06fcdab6d5fde01274f0fc5c759 as detached HEAD
+=== updating hal_xtensa (modules\hal\xtensa):
+--- hal_xtensa: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/modules/hal/xtensa/.git/
+--- hal_xtensa: fetching, need revision 382b309b481adc85dd517d50b8a458bcb86f15d4
+remote: Enumerating objects: 175, done.
+remote: Counting objects: 100% (175/175), done.
+remote: Compressing objects: 100% (98/98), done.
+Receiving objects:  85% (149/175)used 154 (delta 53), pack-reused 0
+Receiving objects: 100% (175/175), 290.85 KiB | 619.00 KiB/s, done.
+Resolving deltas: 100% (64/64), done.
+From https://github.com/zephyrproject-rtos/hal_xtensa
+ * [new branch]      RF         -> refs/west/RF
+ * [new branch]      master     -> refs/west/master
+ * [new branch]      zephyr     -> refs/west/zephyr
+ * [new tag]         RF-2015.2  -> RF-2015.2
+HEAD is now at 382b309 zephyr: support building as Zephyr module
+--- hal_xtensa: checked out 382b309b481adc85dd517d50b8a458bcb86f15d4 as detached HEAD
+=== updating edtt (tools\edtt):
+--- edtt: cloning and initializing
+Initialized empty Git repository in C:/Users/kujir/zephyrproject/tools/edtt/.git/
+--- edtt: fetching, need revision dd4dd502ef2fbeced6ef7faaba562a7ddca45632
+remote: Enumerating objects: 140, done.
+remote: Counting objects: 100% (140/140), done.
+remote: Compressing objects: 100% (82/82), done.
+remote: Total 140 (delta 76), reused 118 (delta 54), pack-reused 0
+Receiving objects: 100% (140/140), 201.58 KiB | 494.00 KiB/s, done.
+Resolving deltas: 100% (76/76), done.
+From https://github.com/zephyrproject-rtos/edtt
+ * [new branch]      public_master -> refs/west/public_master
+HEAD is now at dd4dd50 echo test: Correct for Python3
+--- edtt: checked out dd4dd502ef2fbeced6ef7faaba562a7ddca45632 as detached HEAD
+
+C:\Users\kujir\zephyrproject>
