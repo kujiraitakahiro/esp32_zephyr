@@ -1,0 +1,200 @@
+C:\Users\kujir\zephyrproject>pip3 install -r %HOMEPATH%\zephyrproject\zephyr\scripts\requirements.txt
+Collecting Pillow (from -r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 1))
+  Downloading https://files.pythonhosted.org/packages/a9/a7/f1e4261b3968dcb02330257f8b62dbe35ef582aceb610f6347da34dffbb1/Pillow-7.0.0-cp38-cp38-win_amd64.whl (2.0MB)
+     |████████████████████████████████| 2.0MB 1.6MB/s
+Requirement already satisfied: PyYAML>=5.1 in c:\python38\lib\site-packages (from -r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 2)) (5.3)
+Collecting anytree (from -r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 3))
+  Downloading https://files.pythonhosted.org/packages/a8/65/be23d8c3ecd68d40541d49812cd94ed0f3ee37eb88669ca15df0e43daed1/anytree-2.8.0-py2.py3-none-any.whl (41kB)
+     |████████████████████████████████| 51kB 3.2MB/s
+Collecting breathe>=4.9.1 (from -r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/54/5c/7f329f1795e29d1915283978f9c13c91ad759422493321d6e2853f6a4789/breathe-4.14.0-py3-none-any.whl (74kB)
+     |████████████████████████████████| 81kB 5.1MB/s
+Requirement already satisfied: colorama in c:\python38\lib\site-packages (from -r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 5)) (0.4.3)
+Collecting docutils>=0.14 (from -r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 6))
+  Downloading https://files.pythonhosted.org/packages/81/44/8a15e45ffa96e6cf82956dd8d7af9e666357e16b0d93b253903475ee947f/docutils-0.16-py2.py3-none-any.whl (548kB)
+     |████████████████████████████████| 552kB 6.4MB/s
+Collecting gcovr (from -r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 7))
+  Downloading https://files.pythonhosted.org/packages/70/8e/55232768ba46ba2cbb10ea04f3a8cf41540ee058a4e8eb5e3ac53d190e95/gcovr-4.2-py2.py3-none-any.whl (45kB)
+     |████████████████████████████████| 51kB 3.4MB/s
+Collecting git-spindle>=2.0 (from -r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 8))
+  Downloading https://files.pythonhosted.org/packages/8a/db/2de5d722744b31346b0f7141227874e3bbe7a75152dc94a12a51f8a5be51/git-spindle-3.4.4.tar.gz (1.9MB)
+     |████████████████████████████████| 1.9MB 6.4MB/s
+Collecting gitlint (from -r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 9))
+  Downloading https://files.pythonhosted.org/packages/f8/a2/0b656b5c1853ed99001f2716b50631778fe5029e132688b2b486fd620797/gitlint-0.12.0-py2.py3-none-any.whl (71kB)
+     |████████████████████████████████| 81kB 2.6MB/s
+Collecting intelhex (from -r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 10))
+  Downloading https://files.pythonhosted.org/packages/bf/77/bf670318b3db325c71e2ac6a90b7bcfdf9fc739b7cf6aebb31715721623e/intelhex-2.2.1-py2.py3-none-any.whl (50kB)
+     |████████████████████████████████| 51kB 1.6MB/s
+Collecting junit2html (from -r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 11))
+  Downloading https://files.pythonhosted.org/packages/69/93/f2ccef1136dba078dada0513c324bad9ffd2be9236229d09bce71e1338a8/junit2html-022.tar.gz
+Collecting packaging (from -r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 12))
+  Downloading https://files.pythonhosted.org/packages/d8/5b/3098db49a61ccc8583ffead6aedc226f08ff56dc03106b6ec54451e27a30/packaging-20.0-py2.py3-none-any.whl
+Collecting ply>=3.10 (from -r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 13))
+  Downloading https://files.pythonhosted.org/packages/a3/58/35da89ee790598a0700ea49b2a66594140f44dec458c07e8e3d4979137fc/ply-3.11-py2.py3-none-any.whl (49kB)
+     |████████████████████████████████| 51kB 3.2MB/s
+Collecting pyelftools>=0.24 (from -r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 14))
+  Downloading https://files.pythonhosted.org/packages/bb/2f/bf41f3c3867d6707fa9b872658bb23088a64d0e522e8979f54c694b8cbe1/pyelftools-0.26-py2.py3-none-any.whl (136kB)
+     |████████████████████████████████| 143kB 6.4MB/s
+Requirement already satisfied: pykwalify in c:\python38\lib\site-packages (from -r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 15)) (1.7.0)
+Collecting pyocd>=0.24.0 (from -r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 16))
+  Downloading https://files.pythonhosted.org/packages/3f/1c/d349116859f4b0426fcbb616ff424522bd65789e9e6ba56d60e90f3b7166/pyocd-0.24.1-py2.py3-none-any.whl (6.8MB)
+     |████████████████████████████████| 6.8MB 6.8MB/s
+Collecting pyserial (from -r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 17))
+  Downloading https://files.pythonhosted.org/packages/0d/e4/2a744dd9e3be04a0c0907414e2a01a7c88bb3915cbe3c8cc06e209f59c30/pyserial-3.4-py2.py3-none-any.whl (193kB)
+     |████████████████████████████████| 194kB 6.8MB/s
+Collecting pytest (from -r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 18))
+  Downloading https://files.pythonhosted.org/packages/19/cf/711f1d887cb92c5155c9a1eb338f1b5d2411b50e4492a3b20e4a188a22b2/pytest-5.3.2-py3-none-any.whl (234kB)
+     |████████████████████████████████| 235kB 6.8MB/s
+Collecting sphinx>=1.7.5 (from -r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 19))
+  Downloading https://files.pythonhosted.org/packages/c4/bb/64c45dd915150952feda858a112a13dc43fb24df2f397d82cdbd4db274b6/Sphinx-2.3.1-py3-none-any.whl (2.7MB)
+     |████████████████████████████████| 2.7MB 6.4MB/s
+Collecting sphinx_rtd_theme (from -r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 20))
+  Downloading https://files.pythonhosted.org/packages/60/b4/4df37087a1d36755e3a3bfd2a30263f358d2dea21938240fa02313d45f51/sphinx_rtd_theme-0.4.3-py2.py3-none-any.whl (6.4MB)
+     |████████████████████████████████| 6.4MB 726kB/s
+Collecting sphinx-tabs (from -r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 21))
+  Downloading https://files.pythonhosted.org/packages/6c/9d/838933a5dfe6323a865dfb004e2892d5ffe702a34503b5b8385f7be99534/sphinx-tabs-1.1.13.tar.gz
+Collecting sphinxcontrib-svg2pdfconverter (from -r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 22))
+  Downloading https://files.pythonhosted.org/packages/79/83/d712a25303429570c641caa113d1282c27012bbd4157417d07829947a549/sphinxcontrib_svg2pdfconverter-1.0.1-py3-none-any.whl
+Collecting tabulate (from -r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 23))
+  Downloading https://files.pythonhosted.org/packages/c4/41/523f6a05e6dc3329a5660f6a81254c6cd87e5cfb5b7482bae3391d86ec3a/tabulate-0.8.6.tar.gz (45kB)
+     |████████████████████████████████| 51kB 3.4MB/s
+Requirement already satisfied: west>=0.6.2 in c:\python38\lib\site-packages (from -r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 24)) (0.6.3)
+Collecting wheel>=0.30.0 (from -r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 25))
+  Downloading https://files.pythonhosted.org/packages/00/83/b4a77d044e78ad1a45610eb88f745be2fd2c6d658f9798a15e384b7d57c9/wheel-0.33.6-py2.py3-none-any.whl
+Collecting windows-curses (from -r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 27))
+  Downloading https://files.pythonhosted.org/packages/79/0e/306ba8239d6e4162372b0a7d6a2e5d8bc2ee80177950dfc6b991cef706ee/windows_curses-2.1.0-cp38-cp38-win_amd64.whl (88kB)
+     |████████████████████████████████| 92kB 6.1MB/s
+Requirement already satisfied: six>=1.9.0 in c:\python38\lib\site-packages (from anytree->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 3)) (1.13.0)
+Collecting jinja2 (from gcovr->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 7))
+  Downloading https://files.pythonhosted.org/packages/65/e0/eb35e762802015cab1ccee04e8a277b03f1d8e53da3ec3106882ec42558b/Jinja2-2.10.3-py2.py3-none-any.whl (125kB)
+     |████████████████████████████████| 133kB 6.4MB/s
+Collecting lxml (from gcovr->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 7))
+  Downloading https://files.pythonhosted.org/packages/c2/06/b9694a71a29a35f4db71dd88cc91c54ca051f3ffabe96ff8454e1f2ee8ff/lxml-4.4.2-cp38-cp38-win_amd64.whl (3.7MB)
+     |████████████████████████████████| 3.7MB ...
+Collecting github3.py<1.0,>=0.9.0 (from git-spindle>=2.0->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 8))
+  Downloading https://files.pythonhosted.org/packages/b9/bd/9e433bd695567ccf2bdc0f4c2cdc7da2ce2bb8467e405b2fca62631d8690/github3.py-0.9.6-py2.py3-none-any.whl (109kB)
+     |████████████████████████████████| 112kB 3.3MB/s
+Collecting whelk>=2.6 (from git-spindle>=2.0->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 8))
+  Downloading https://files.pythonhosted.org/packages/76/0f/9179a15a0ea20980f6acc7787eaaa4b34c6413eed167eaeba2208f08b5d1/whelk-2.8.2-py3-none-any.whl
+Requirement already satisfied: docopt>=0.5.0 in c:\python38\lib\site-packages (from git-spindle>=2.0->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 8)) (0.6.2)
+Collecting Click==7.0 (from gitlint->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 9))
+  Downloading https://files.pythonhosted.org/packages/fa/37/45185cb5abbc30d7257104c434fe0b07e5a195a6847506c074527aa599ec/Click-7.0-py2.py3-none-any.whl (81kB)
+     |████████████████████████████████| 81kB 2.6MB/s
+Collecting arrow==0.14.2; python_version != "3.4" (from gitlint->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 9))
+  Downloading https://files.pythonhosted.org/packages/a2/6a/a3d20e80ee4fee7c55c022fb28d52239bd01171edd3c137dd1e2ef8b2a20/arrow-0.14.2-py2.py3-none-any.whl
+Collecting pyparsing>=2.0.2 (from packaging->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 12))
+  Downloading https://files.pythonhosted.org/packages/5d/bc/1e58593167fade7b544bfe9502a26dc860940a79ab306e651e7f13be68c2/pyparsing-2.4.6-py2.py3-none-any.whl (67kB)
+     |████████████████████████████████| 71kB 4.5MB/s
+Requirement already satisfied: python-dateutil>=2.4.2 in c:\python38\lib\site-packages (from pykwalify->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 15)) (2.8.1)
+Collecting pyusb<2.0,>=1.0.0b2 (from pyocd>=0.24.0->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 16))
+  Downloading https://files.pythonhosted.org/packages/5f/34/2095e821c01225377dda4ebdbd53d8316d6abb243c9bee43d3888fa91dd6/pyusb-1.0.2.tar.gz (54kB)
+     |████████████████████████████████| 61kB 3.8MB/s
+Collecting cmsis-pack-manager>=0.2.7 (from pyocd>=0.24.0->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 16))
+  Downloading https://files.pythonhosted.org/packages/7e/5a/bd882114f5f57c3ae4d024bd31617561a45f624c033bce32644552d31bef/cmsis_pack_manager-0.2.9-py2.py3-none-win_amd64.whl (2.8MB)
+     |████████████████████████████████| 2.8MB 2.2MB/s
+Collecting intervaltree<4.0,>=3.0.2 (from pyocd>=0.24.0->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 16))
+  Downloading https://files.pythonhosted.org/packages/e8/f9/76237755b2020cd74549e98667210b2dd54d3fb17c6f4a62631e61d31225/intervaltree-3.0.2.tar.gz
+Collecting prettytable (from pyocd>=0.24.0->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 16))
+  Downloading https://files.pythonhosted.org/packages/ef/30/4b0746848746ed5941f052479e7c23d2b56d174b82f4fd34a25e389831f5/prettytable-0.7.2.tar.bz2
+Collecting pywinusb>=0.4.0; platform_system == "Windows" (from pyocd>=0.24.0->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 16))
+  Downloading https://files.pythonhosted.org/packages/38/b4/ecce4a3a0dac3b1bf5776943530cf4f36406fc9b3f4f3c31c8dcab2249eb/pywinusb-0.4.2.zip (61kB)
+     |████████████████████████████████| 71kB 2.2MB/s
+Collecting pluggy<1.0,>=0.12 (from pytest->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 18))
+  Downloading https://files.pythonhosted.org/packages/a0/28/85c7aa31b80d150b772fbe4a229487bc6644da9ccb7e427dd8cc60cb8a62/pluggy-0.13.1-py2.py3-none-any.whl
+Collecting py>=1.5.0 (from pytest->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 18))
+  Downloading https://files.pythonhosted.org/packages/99/8d/21e1767c009211a62a8e3067280bfce76e89c9f876180308515942304d2d/py-1.8.1-py2.py3-none-any.whl (83kB)
+     |████████████████████████████████| 92kB 2.9MB/s
+Collecting attrs>=17.4.0 (from pytest->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 18))
+  Downloading https://files.pythonhosted.org/packages/a2/db/4313ab3be961f7a763066401fb77f7748373b6094076ae2bda2806988af6/attrs-19.3.0-py2.py3-none-any.whl
+Collecting wcwidth (from pytest->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 18))
+  Downloading https://files.pythonhosted.org/packages/58/b4/4850a0ccc6f567cc0ebe7060d20ffd4258b8210efadc259da62dc6ed9c65/wcwidth-0.1.8-py2.py3-none-any.whl
+Collecting atomicwrites>=1.0; sys_platform == "win32" (from pytest->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 18))
+  Downloading https://files.pythonhosted.org/packages/52/90/6155aa926f43f2b2a22b01be7241be3bfd1ceaf7d0b3267213e8127d41f4/atomicwrites-1.3.0-py2.py3-none-any.whl
+Collecting more-itertools>=4.0.0 (from pytest->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 18))
+  Downloading https://files.pythonhosted.org/packages/bc/e2/3206a70758a21f9878fcf9478282bb68fbc66a5564718f9ed724c3f2bb52/more_itertools-8.1.0-py3-none-any.whl (41kB)
+     |████████████████████████████████| 51kB 3.4MB/s
+Collecting sphinxcontrib-applehelp (from sphinx>=1.7.5->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 19))
+  Downloading https://files.pythonhosted.org/packages/13/9a/4428b3114d654cb1cd34d90d5e6fab938d5436f94a571155187ea1dd78b4/sphinxcontrib_applehelp-1.0.1-py2.py3-none-any.whl (121kB)
+     |████████████████████████████████| 122kB 3.3MB/s
+Collecting babel!=2.0,>=1.3 (from sphinx>=1.7.5->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 19))
+  Downloading https://files.pythonhosted.org/packages/15/a1/522dccd23e5d2e47aed4b6a16795b8213e3272c7506e625f2425ad025a19/Babel-2.8.0-py2.py3-none-any.whl (8.6MB)
+     |████████████████████████████████| 8.6MB 6.8MB/s
+Collecting alabaster<0.8,>=0.7 (from sphinx>=1.7.5->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 19))
+  Downloading https://files.pythonhosted.org/packages/10/ad/00b090d23a222943eb0eda509720a404f531a439e803f6538f35136cae9e/alabaster-0.7.12-py2.py3-none-any.whl
+Collecting snowballstemmer>=1.1 (from sphinx>=1.7.5->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 19))
+  Downloading https://files.pythonhosted.org/packages/7d/4b/cdf1113a0e88b641893b814e9c36f69a6fda28cd88b62c7f0d858cde3166/snowballstemmer-2.0.0-py2.py3-none-any.whl (97kB)
+     |████████████████████████████████| 102kB 6.4MB/s
+Collecting sphinxcontrib-jsmath (from sphinx>=1.7.5->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 19))
+  Downloading https://files.pythonhosted.org/packages/c2/42/4c8646762ee83602e3fb3fbe774c2fac12f317deb0b5dbeeedd2d3ba4b77/sphinxcontrib_jsmath-1.0.1-py2.py3-none-any.whl
+Collecting sphinxcontrib-devhelp (from sphinx>=1.7.5->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 19))
+  Downloading https://files.pythonhosted.org/packages/b0/a3/fea98741f0b2f2902fbf6c35c8e91b22cd0dd13387291e81d457f9a93066/sphinxcontrib_devhelp-1.0.1-py2.py3-none-any.whl (84kB)
+     |████████████████████████████████| 92kB 2.9MB/s
+Collecting sphinxcontrib-serializinghtml (from sphinx>=1.7.5->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 19))
+  Downloading https://files.pythonhosted.org/packages/57/b3/3648e48fa5682e61e9839d62de4e23af1795ceb738d68d73bd974257a95c/sphinxcontrib_serializinghtml-1.1.3-py2.py3-none-any.whl (89kB)
+     |████████████████████████████████| 92kB 5.8MB/s
+Requirement already satisfied: setuptools in c:\python38\lib\site-packages (from sphinx>=1.7.5->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 19)) (41.2.0)
+Collecting sphinxcontrib-qthelp (from sphinx>=1.7.5->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 19))
+  Downloading https://files.pythonhosted.org/packages/ce/5b/4747c3ba98b3a3e21a66faa183d8f79b9ded70e74212a7988d236a6eb78a/sphinxcontrib_qthelp-1.0.2-py2.py3-none-any.whl (90kB)
+     |████████████████████████████████| 92kB 3.0MB/s
+Collecting requests>=2.5.0 (from sphinx>=1.7.5->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 19))
+  Downloading https://files.pythonhosted.org/packages/51/bd/23c926cd341ea6b7dd0b2a00aba99ae0f828be89d72b2190f27c11d4b7fb/requests-2.22.0-py2.py3-none-any.whl (57kB)
+     |████████████████████████████████| 61kB 4.1MB/s
+Collecting imagesize (from sphinx>=1.7.5->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 19))
+  Downloading https://files.pythonhosted.org/packages/31/b2/b5522a0c8d11e4aff83f8342f3f0dea68c2fb25aa44403e420587f0ce204/imagesize-1.2.0-py2.py3-none-any.whl
+Collecting Pygments>=2.0 (from sphinx>=1.7.5->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 19))
+  Downloading https://files.pythonhosted.org/packages/be/39/32da3184734730c0e4d3fa3b2b5872104668ad6dc1b5a73d8e477e5fe967/Pygments-2.5.2-py2.py3-none-any.whl (896kB)
+     |████████████████████████████████| 901kB 6.4MB/s
+Collecting sphinxcontrib-htmlhelp (from sphinx>=1.7.5->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 19))
+  Downloading https://files.pythonhosted.org/packages/e4/35/80a67cc493f4a8a9634ab203a77aaa1b84d79ccb1c02eca72cb084d2c7f7/sphinxcontrib_htmlhelp-1.0.2-py2.py3-none-any.whl (96kB)
+     |████████████████████████████████| 102kB 3.3MB/s
+Requirement already satisfied: configobj in c:\python38\lib\site-packages (from west>=0.6.2->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 24)) (5.0.6)
+Collecting MarkupSafe>=0.23 (from jinja2->gcovr->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 7))
+  Downloading https://files.pythonhosted.org/packages/b9/2e/64db92e53b86efccfaea71321f597fa2e1b2bd3853d8ce658568f7a13094/MarkupSafe-1.1.1.tar.gz
+Collecting uritemplate.py>=0.2.0 (from github3.py<1.0,>=0.9.0->git-spindle>=2.0->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 8))
+  Downloading https://files.pythonhosted.org/packages/8b/ba/6cbb9c3bf4f53997d8d1f69414fc7962f536ba43d283f0e32de68534f6a4/uritemplate.py-3.0.2-py2.py3-none-any.whl
+Collecting milksnake>=0.1.2 (from cmsis-pack-manager>=0.2.7->pyocd>=0.24.0->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 16))
+  Downloading https://files.pythonhosted.org/packages/27/be/e10e73f857ac98ef43587fa8db37a3ef6de56e728037a7b9728de26711c7/milksnake-0.1.5-py2.py3-none-any.whl
+Collecting appdirs>=1.4 (from cmsis-pack-manager>=0.2.7->pyocd>=0.24.0->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 16))
+  Downloading https://files.pythonhosted.org/packages/56/eb/810e700ed1349edde4cbdc1b2a21e28cdf115f9faf263f6bbf8447c1abf3/appdirs-1.4.3-py2.py3-none-any.whl
+Collecting sortedcontainers<3.0,>=2.0 (from intervaltree<4.0,>=3.0.2->pyocd>=0.24.0->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 16))
+  Downloading https://files.pythonhosted.org/packages/13/f3/cf85f7c3a2dbd1a515d51e1f1676d971abe41bba6f4ab5443240d9a78e5b/sortedcontainers-2.1.0-py2.py3-none-any.whl
+Collecting pytz>=2015.7 (from babel!=2.0,>=1.3->sphinx>=1.7.5->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 19))
+  Downloading https://files.pythonhosted.org/packages/e7/f9/f0b53f88060247251bf481fa6ea62cd0d25bf1b11a87888e53ce5b7c8ad2/pytz-2019.3-py2.py3-none-any.whl (509kB)
+     |████████████████████████████████| 512kB 3.3MB/s
+Collecting idna<2.9,>=2.5 (from requests>=2.5.0->sphinx>=1.7.5->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 19))
+  Downloading https://files.pythonhosted.org/packages/14/2c/cd551d81dbe15200be1cf41cd03869a46fe7226e7450af7a6545bfc474c9/idna-2.8-py2.py3-none-any.whl (58kB)
+     |████████████████████████████████| 61kB ...
+Collecting urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 (from requests>=2.5.0->sphinx>=1.7.5->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 19))
+  Downloading https://files.pythonhosted.org/packages/b4/40/a9837291310ee1ccc242ceb6ebfd9eb21539649f193a7c8c86ba15b98539/urllib3-1.25.7-py2.py3-none-any.whl (125kB)
+     |████████████████████████████████| 133kB 3.3MB/s
+Collecting chardet<3.1.0,>=3.0.2 (from requests>=2.5.0->sphinx>=1.7.5->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 19))
+  Downloading https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl (133kB)
+     |████████████████████████████████| 143kB 6.8MB/s
+Collecting certifi>=2017.4.17 (from requests>=2.5.0->sphinx>=1.7.5->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 19))
+  Downloading https://files.pythonhosted.org/packages/b9/63/df50cac98ea0d5b006c55a399c3bf1db9da7b5a24de7890bc9cfd5dd9e99/certifi-2019.11.28-py2.py3-none-any.whl (156kB)
+     |████████████████████████████████| 163kB 3.2MB/s
+Collecting uritemplate>=2.0 (from uritemplate.py>=0.2.0->github3.py<1.0,>=0.9.0->git-spindle>=2.0->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 8))
+  Downloading https://files.pythonhosted.org/packages/bf/0c/60d82c077998feb631608dca3cc1fe19ac074e772bf0c24cf409b977b815/uritemplate-3.0.1-py2.py3-none-any.whl
+Collecting cffi>=1.6.0 (from milksnake>=0.1.2->cmsis-pack-manager>=0.2.7->pyocd>=0.24.0->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 16))
+  Downloading https://files.pythonhosted.org/packages/4f/c9/135197be2a44f8dbe59373a55018843aa586e14af23e813897f40b6689f6/cffi-1.13.2-cp38-cp38-win_amd64.whl (175kB)
+     |████████████████████████████████| 184kB 2.2MB/s
+Collecting pycparser (from cffi>=1.6.0->milksnake>=0.1.2->cmsis-pack-manager>=0.2.7->pyocd>=0.24.0->-r \Users\kujir\zephyrproject\zephyr\scripts\requirements.txt (line 16))
+  Downloading https://files.pythonhosted.org/packages/68/9e/49196946aee219aead1290e00d1e7fdeab8567783e83e1b9ab5585e6206a/pycparser-2.19.tar.gz (158kB)
+     |████████████████████████████████| 163kB 3.3MB/s
+Installing collected packages: Pillow, anytree, sphinxcontrib-applehelp, pyparsing, packaging, pytz, babel, alabaster, snowballstemmer, sphinxcontrib-jsmath, sphinxcontrib-devhelp, MarkupSafe, jinja2, sphinxcontrib-serializinghtml, sphinxcontrib-qthelp, docutils, idna, urllib3, chardet, certifi, requests, imagesize, Pygments, sphinxcontrib-htmlhelp, sphinx, breathe, lxml, gcovr, uritemplate, uritemplate.py, github3.py, whelk, git-spindle, Click, arrow, gitlint, intelhex, junit2html, ply, pyelftools, pyusb, pycparser, cffi, milksnake, appdirs, cmsis-pack-manager, sortedcontainers, intervaltree, prettytable, pywinusb, pyocd, pyserial, pluggy, py, attrs, wcwidth, atomicwrites, more-itertools, pytest, sphinx-rtd-theme, sphinx-tabs, sphinxcontrib-svg2pdfconverter, tabulate, wheel, windows-curses
+  Running setup.py install for MarkupSafe ... done
+  Running setup.py install for git-spindle ... done
+  Running setup.py install for junit2html ... done
+  Running setup.py install for pyusb ... done
+  Running setup.py install for pycparser ... done
+  Running setup.py install for intervaltree ... done
+  Running setup.py install for prettytable ... done
+  Running setup.py install for pywinusb ... done
+  Running setup.py install for sphinx-tabs ... done
+  Running setup.py install for tabulate ... done
+Successfully installed Click-7.0 MarkupSafe-1.1.1 Pillow-7.0.0 Pygments-2.5.2 alabaster-0.7.12 anytree-2.8.0 appdirs-1.4.3 arrow-0.14.2 atomicwrites-1.3.0 attrs-19.3.0 babel-2.8.0 breathe-4.14.0 certifi-2019.11.28 cffi-1.13.2 chardet-3.0.4 cmsis-pack-manager-0.2.9 docutils-0.16 gcovr-4.2 git-spindle-3.4.4 github3.py-0.9.6 gitlint-0.12.0 idna-2.8 imagesize-1.2.0 intelhex-2.2.1 intervaltree-3.0.2 jinja2-2.10.3 junit2html-22 lxml-4.4.2 milksnake-0.1.5 more-itertools-8.1.0 packaging-20.0 pluggy-0.13.1 ply-3.11 prettytable-0.7.2 py-1.8.1 pycparser-2.19 pyelftools-0.26 pyocd-0.24.1 pyparsing-2.4.6 pyserial-3.4 pytest-5.3.2 pytz-2019.3 pyusb-1.0.2 pywinusb-0.4.2 requests-2.22.0 snowballstemmer-2.0.0 sortedcontainers-2.1.0 sphinx-2.3.1 sphinx-rtd-theme-0.4.3 sphinx-tabs-1.1.13 sphinxcontrib-applehelp-1.0.1 sphinxcontrib-devhelp-1.0.1 sphinxcontrib-htmlhelp-1.0.2 sphinxcontrib-jsmath-1.0.1 sphinxcontrib-qthelp-1.0.2 sphinxcontrib-serializinghtml-1.1.3 sphinxcontrib-svg2pdfconverter-1.0.1 tabulate-0.8.6 uritemplate-3.0.1 uritemplate.py-3.0.2 urllib3-1.25.7 wcwidth-0.1.8 wheel-0.33.6 whelk-2.8.2 windows-curses-2.1.0
+WARNING: You are using pip version 19.2.3, however version 19.3.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+
+C:\Users\kujir\zephyrproject>
+C:\Users\kujir\zephyrproject>
